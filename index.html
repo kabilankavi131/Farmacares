@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FarmaCares</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="https://i.ibb.co/MD4xHgn/IMG-20221230-WA0004.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Concert+One&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&family=Poppins:wght@600&family=Work+Sans:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Farma <span>Cares</span></h1>
+    </header>
+    <nav>
+
+        <i id="theme" class="fa fa-adjust"></i>
+        <input id="input" placeholder="Search...">
+        <i align="right" id="search" class="fa fa-search"></i>
+        <i align="left" id="bars" class="fa fa-bars"></i>
+
+
+        <div id="contents" class="nav-contents">
+            <a id="close" class="fa fa-times"></a>
+            <ol>
+                <li>LOGIN</li>
+                <li>SIGN UP</li>
+                <li>ABOUT</li>
+                <li>CONTACT US</li>
+                <li>GALLERY</li>
+            </ol>
+        </div>
+    </nav>
+    <br>
+    <div class="imgcont">
+        <div>
+            <img src="https://i.ibb.co/QjJ9nDC/young-asian-farmer-with-smartphone-1150-53941.webp">
+
+        </div>
+
+
+
+        <div>
+            <img src="https://i.ibb.co/D8G5dLq/farmer-with-tablet-checking-farm-growth-managing-plant-export-orders-technology-monitoring-farming-p.webp">
+        </div>
+
+
+        <div>
+            <img src="https://i.ibb.co/3TmDxNp/green-tea-bud-leaves-green-tea-plantations-morning-335224-955.webp">
+        </div>
+
+        <div>
+            <img src="https://i.ibb.co/zRZQ10m/istockphoto-1255871842-612x612.jpg">
+        </div>
+
+
+
+
+
+        <div>
+            <img src="https://i.ibb.co/3Rw70nx/smart-robotic-farmers-concept-robot-farmers-agriculture-technology-farm-automation-35913-2314.webp">
+        </div>
+
+    </div>
+    <br /><br /><hr /><br />
+    <!--This part is for block of the website-->
+
+    <div class="block">
+
+        <h1>Successful season depends on the right seed in the right environment</h1>
+        <img src="https://i.ibb.co/ckpTDmn/blockimage.webp" class="blockimg">
+
+        <article>
+            <p>Through years of testing and trials, Midsouth row crop varieties yield better and have stronger resistance to weeds, insects and diseases. By matching the right vigorous varieties with a farm’s overall environment, growers can take greater advantage of traits bred into supper seeds.</p>
+            <br />
+            <p>Whether its clay or sandy loam soil, flat or hilly terrain or a wet or dry climate, field types matter in variety selection. Just as important are the history of disease in soils. The types of herbicide and other GM technologies bred into varieties are also key elements for success.</p>
+            <br />
+            <p>With the cooler, wet conditions that hindered production across the Delta and other regions in 2021, seed types and their production were tested. The importance of planting quality seed that matched environmental conditions was magnified.</p>
+            <br />
+            <p>Jeremy Ross, University of Arkansas System Division of Agriculture agronomist and soybean specialist, and Brian Pieralisi, Mississippi State University Extension cotton agronomist, say yield potential and herbicide technology are leading considerations in variety selection. A close second are soil textures, topography and whether crops are dryland or irrigated. But seed selection depends on more than that.</p>
+            <br />
+            <h1>Soil Test</h1>
+            <br />
+            <p>He says soil tests are a must to help identify the fertilizer rates needed to promote better plant growth, yield and which supplemental nutrients are needed to boost production. UADA data recommends a “Medium” range for phosphorus and potassium for crop production.</p>
+            <br />
+            <p>Soil samples are key in addressing nematode problems. “Resistance to root knot nematode (RKN) seems to be affecting more fields every year,” Ross says, adding that researchers have identified soybean varieties with good resistance ratings to RKN. </p>
+            <br />
+            <p>“In the past, most of the soybean varieties with RKN resistance were mainly in the MG-5s. However, over the past five years, we have been seeing more MG-4 varieties with RKN resistance,” he says. </p>
+            <br />
+            <h1>Seed Germination</h1>
+            <br />
+            <p>Cotton seed germination is also a major concern, as is resistance to disease, weeds and insects. “It ‘s important to know the germination percentage on your bag of seed,” MSU’s Pieralisi says, especially if reduced plant populations are considered. “It’s printed on the label and it is critical information. For example, if you’re planting 40,000 seeds with 80% warm germination, you will likely have a stand of 32,000.”</p>
+        </article>
+        <br /><br />
+        <center>
+            <h1>Quote</h1>
+            <br />
+            <h1 class="quote">
+                “A farmer is a magician who produces money from the mud.”
+            </h1>
+            <br />
+        </center>
+        <h2> ― Amit Kalantri</h2>
+        <br /><br /><br /><br /><hr />
+    </div>
+    <br />
+    <footer>
+        <div class="fcontents">
+            <br /><br />
+        <h1 class="ftitle">Farma <span>cares.</span> </h1>
+            <br /><br />
+            <h3 align="right">Copyright &copy; 2022. All rights reserved</h3>
+            </div>
+    </footer>
+</body>
+</html>
+<script>
+    var bars;
+bars=document.getElementById("bars");
+bars.addEventListener("click",()=>{
+    let content;
+    content=document.getElementById("contents");
+    content.style.width="200px";
+})
+
+
+var close;
+close=document.getElementById("close");
+close.addEventListener("click",()=>{
+    let content;
+    content=document.getElementById("contents");
+    content.style.width="0vw";
+
+})
+
+var theme;
+theme=document.getElementById("theme");
+theme.addEventListener("click",()=>{
+  color=document.body.style.background;
+  if(color=="white"){
+      document.body.style.background="#252525";
+      let pgs=document.getElementsByTagName("p");
+      for(let i=0;i<pgs.length;i++)
+      pgs[i].style.color="gray";
+  }
+  else{
+      document.body.style.background="white";
+      let pgs=document.getElementsByTagName("p");
+      for(let i=0;i<pgs.length;i++)
+      pgs[i].style.color="black";
+      }
+
+})
+
+
+
+var search;
+search=document.getElementById("search");
+search.addEventListener("click",()=>{
+    let input;
+    input=document.getElementById("input");
+    if(input.style.width=="0px"){
+    search.style.left="230px";
+    input.style.width="170px";
+    input.style.display="inline";
+    }
+    else{
+        input.style.width = "0px";
+        search.style.left="70px";
+    }
+
+})
+
+
+
+
+
+
+
+
+
+</script>
