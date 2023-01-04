@@ -1,0 +1,182 @@
+
+header {
+    width: 100vw;
+    height: 8vh;
+    background-color: lightgreen;
+    text-align: center;
+    color: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.fa-bars {
+    float: right;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.fa-adjust {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.fa-times {
+    font-size: 35px;
+    padding: 10px;
+}
+
+.fa-search {
+    color: black;
+    position: absolute;
+    left: 70px;
+    font-size: 45px;
+    padding: 10px;
+    transition: 2s;
+}
+
+nav {
+    width: 100vw;
+    height: 60px;
+    background-color: gray;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.9);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+
+.fa-search:active {
+    background-color: rgba(0,0,0,.2);
+}
+
+.fa-adjust:active {
+    background-color: rgba(0,0,0,.2);
+}
+
+.fa-bars:active {
+    background-color: rgba(0,0,0,.2);
+}
+
+
+
+
+
+
+
+
+.nav-contents {
+    background-color:gray;
+    position: absolute;
+    top: 52px;
+    right: 0px;
+    height:50;
+    width: 0vw;
+    transition: .7s;
+    overflow: hidden;
+    z-index:1000;
+}
+
+li {
+    padding: 20px;
+    list-style-type: none;
+}
+
+    li:hover {
+        background: rgba(0,0,0,.2);
+    }
+
+input {
+    overflow: none;
+    border-radius: 30px;
+    transition: 2s;
+    width: 0;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+
+    input:hover {
+        border: 2px solid blue;
+    }
+
+
+
+
+
+.imgcont {
+    width: 100%;
+    height: auto;
+    overflow: scroll;
+    white-space: nowrap;
+}
+
+img {
+    width: 40%;
+    height: 5%;
+    padding-left: 10px;
+}
+
+.imgcont div {
+    width: 100%;
+    border-radius: 30px;
+    display: inline;
+}
+
+
+/*   This part is for block of the website */
+.block{
+    position:absolute;
+    left:15%;
+    right:10%;
+    font-size:20px;
+    color:lightseagreen;
+    z-index:-10;
+}
+
+.blockimg{
+    width:95%;
+    height:270px;
+
+}
+p{
+    color:black;
+}
+.quote{
+    color:goldenrod;
+}
+h2{
+    position:absolute;
+    left:60%;
+    color:olivedrab;
+}
+footer{
+    width:100vw;
+    height:200px;
+    background-color:darkslategray;
+    position:absolute;
+    top:3300px;
+ 
+}
+.ftitle{
+    font-size:50px;
+    color:white;
+}
+.fcontents{
+    position:absolute;
+    left:10%;
+}
+span {
+    color: cornflowerblue;
+   
+}
+.blockimg{
+    border-radius:30px;
+}
