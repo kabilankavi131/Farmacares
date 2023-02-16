@@ -1,7 +1,9 @@
+<!-- Created by Kabilan K -->
+
 <!DOCTYPE html>
 <html>
 <head>
-    <title>FarmaCares</title>
+    <title>FarmaCare</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="icon" href="https://i.ibb.co/MD4xHgn/IMG-20221230-WA0004.jpg">
     <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&family=Concert+One&family=Josefin+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&family=Poppins:wght@600&family=Work+Sans:wght@400;500;600;700;800&display=swap"
@@ -16,13 +18,11 @@
         <h1>Farma <span>Cares</span></h1>
     </header>
     <nav>
-
         <i id="theme" class="fa fa-adjust"></i>
         <input id="input" placeholder="Search...">
         <i align="right" id="search" class="fa fa-search"></i>
         <i align="left" id="bars" class="fa fa-bars"></i>
-
-
+   
         <div id="contents" class="nav-contents">
             <a id="close" class="fa fa-times"></a>
             <ol>
@@ -34,6 +34,8 @@
             </ol>
         </div>
     </nav>
+
+
     <br>
     <div class="imgcont">
         <div>
@@ -67,12 +69,12 @@
     </div>
     <br /><br /><hr /><br />
     <!--This part is for block of the website-->
-
     <div class="block">
 
         <h1>Successful season depends on the right seed in the right environment</h1>
-        <img src="https://i.ibb.co/ckpTDmn/blockimage.webp" class="blockimg">
-
+        <br />
+        <img src="sources/banner.jpg" class="blockimg">
+        <br /><br />
         <article>
             <p>Through years of testing and trials, Midsouth row crop varieties yield better and have stronger resistance to weeds, insects and diseases. By matching the right vigorous varieties with a farm’s overall environment, growers can take greater advantage of traits bred into supper seeds.</p>
             <br />
@@ -107,12 +109,24 @@
         <br /><br /><br /><br /><hr />
     </div>
     <br />
+
+<!--  This is for video part -->
+
+  <div class="video-container">
+  <video autoplay muted loop>
+     <source src="sources/videoplayback.mp4" type="video/mp4">
+  </video>
+  </div>
+
+<!--   Video part gets over here  -->
+
+
     <footer>
         <div class="fcontents">
             <br /><br />
-        <h1 class="ftitle">Farma <span>cares.</span> </h1>
+        <h1 class="ftitle">Farma <span>care.</span> </h1>
             <br /><br />
-            <h3 align="right">Copyright &copy; 2022. All rights reserved</h3>
+            <h3 class="rights">Copyright &copy; 2023. All rights reserved</h3>
             </div>
     </footer>
 </body>
@@ -123,7 +137,7 @@ bars=document.getElementById("bars");
 bars.addEventListener("click",()=>{
     let content;
     content=document.getElementById("contents");
-    content.style.width="200px";
+    content.style.width="50vw";
 })
 
 

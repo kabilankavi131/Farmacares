@@ -1,3 +1,5 @@
+/* Created by Kabilan K */
+
 
 header {
     width: 100vw;
@@ -8,8 +10,13 @@ header {
 }
 
 * {
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
+}
+
+html{
+    max-width: 100%;
+   overflow-x: hidden;
 }
 
 body {
@@ -35,11 +42,11 @@ body {
 
 .fa-search {
     color: black;
-    position: absolute;
-    left: 70px;
+    position:inherit;
+    left:0px;
     font-size: 45px;
     padding: 10px;
-    transition: 2s;
+    transition:2s;
 }
 
 nav {
@@ -73,10 +80,10 @@ nav {
 
 .nav-contents {
     background-color:gray;
-    position: absolute;
-    top: 52px;
+    position:absolute;
+    top: 51.7px;
     right: 0px;
-    height:50;
+    height:100vh;
     width: 0vw;
     transition: .7s;
     overflow: hidden;
@@ -84,12 +91,13 @@ nav {
 }
 
 li {
-    padding: 20px;
+    padding:20px;
     list-style-type: none;
 }
 
     li:hover {
         background: rgba(0,0,0,.2);
+        cursor:pointer;
     }
 
 input {
@@ -133,18 +141,17 @@ img {
 
 /*   This part is for block of the website */
 .block{
-    position:absolute;
-    left:15%;
-    right:10%;
+    position:relative;
     font-size:20px;
     color:lightseagreen;
     z-index:-10;
+    padding: 0 20px;   
 }
 
 .blockimg{
-    width:95%;
-    height:270px;
-
+    width:50%;
+    height:50%;
+    display: flex;
 }
 p{
     color:black;
@@ -152,7 +159,7 @@ p{
 .quote{
     color:goldenrod;
 }
-h2{
+h2{ 
     position:absolute;
     left:60%;
     color:olivedrab;
@@ -161,17 +168,16 @@ footer{
     width:100vw;
     height:200px;
     background-color:darkslategray;
-    position:absolute;
-    top:3300px;
- 
 }
 .ftitle{
     font-size:50px;
     color:white;
+    position: relative;
+    left:5%;
 }
-.fcontents{
-    position:absolute;
-    left:10%;
+.rights{
+    position: relative;
+    left:25%;
 }
 span {
     color: cornflowerblue;
@@ -179,4 +185,13 @@ span {
 }
 .blockimg{
     border-radius:30px;
+}
+
+.video-container{
+    height:70vh;
+}
+video{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
 }
